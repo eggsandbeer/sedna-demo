@@ -1,0 +1,18 @@
+.button {
+  padding: var(--default-space) calc(var(--default-space) * 2);
+  border: none;
+  color: var(--color-white);
+  background-color: var(--color-green);
+  border-radius: var(--border-radius-standard);
+  min-height: var(--form-input-height);
+  height: fit-content;
+}
+
+.button:hover {
+  background-color: var(--color-active-green);
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,26 @@
+:root {
+  /* colors */
+  --color-white: #fff;
+  --color-litegrey: #ededed;
+  --color-grey: #e3e3e3;
+  --color-darkgrey: #b1b1b1;
+  --color-blue: #3f70ae;
+  --color-green: #026966;
+
+  /* hover/active colors */
+  --color-active-green: #004341;
+
+  /* disabled colors */
+  --color-disabled-green: #00434182;
+
+  /* borders */
+  --border-radius-standard: 5px;
+
+  /* spacing */
+  --default-space: 10px;
+
+  /* inputs */
+  --form-input-height: 40px;
+
+  --grid-col-width: 16.6666666667%;
+}

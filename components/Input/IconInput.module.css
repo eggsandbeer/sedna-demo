@@ -1,0 +1,26 @@
+
+.iconInputContainer {
+  margin-bottom: var(--default-space);
+  position: relative;
+  box-sizing: border-box;
+  border-width: 0;
+}
+
+.iconInput {
+  width: 100%;
+  height:var(--form-input-height);
+  padding-left: 2.5rem;
+}
+
+.insetInputWithIcon {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding-left: .5rem;
+}
+
+.insetInputWithIcon svg {
+  stroke: var(--color-darkgrey);;
+}

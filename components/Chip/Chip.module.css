@@ -1,0 +1,31 @@
+.chip {
+  color: var(--color-white);
+  height: calc(var(--default-space) * 3);
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  border-radius: calc(var(--border-radius-standard) * 3);
+  vertical-align: middle;
+  justify-content: center;
+  background-color: var(--color-blue);
+  margin-bottom: var(--default-space);
+  margin-right: var(--default-space);
+  max-width: 200px;
+}
+
+.chipLabel {
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: var(--default-space);
+  text-overflow: ellipsis;
+}
+
+.closeIconContainer {
+  margin-left: calc(var(--default-space) / 2);
+  cursor: pointer;
+  padding-right: var(--default-space);
+}
+
+.closeIconContainer:hover svg {
+  opacity: 0.4;
+}

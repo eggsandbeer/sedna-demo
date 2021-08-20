@@ -1,0 +1,48 @@
+.flexGrid {
+  display: flex;
+}
+
+.col1 {
+  flex: 1;
+}
+.col2 {
+  flex: 2;
+}
+.col3 {
+  flex: 3;
+}
+.col4 {
+  flex: 4;
+}
+.col5 {
+  flex: 5;
+}
+.col6 {
+  flex: 6;
+}
+
+.offset1 {
+  margin-left: var(--grid-col-width);
+}
+.offset2 {
+  margin-left: calc(var(--grid-col-width) * 2);
+}
+.offset3 {
+  margin-left: calc(var(--grid-col-width) * 3)
+}
+.offset4 {
+  margin-left: calc(var(--grid-col-width) * 4)
+}
+.offset5 {
+  margin-left: calc(var(--grid-col-width) * 5)
+}
+.offset6 {
+  margin-left: calc(var(--grid-col-width) * 6)
+}
+
+
+@media (max-width: 520px) {
+  .flexGrid {
+    display: block;
+  }
+}

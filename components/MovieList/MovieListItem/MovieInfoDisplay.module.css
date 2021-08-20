@@ -1,0 +1,9 @@
+.title {
+  display: block;
+  margin-bottom: calc(var(--default-space) / 2);
+  font-size: 1.1rem;
+}
+
+.date {
+  font-size: 0.9rem;
+}

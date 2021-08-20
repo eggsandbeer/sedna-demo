@@ -1,0 +1,26 @@
+.item {
+  background-color: var(--color-grey);
+  border-radius: var(--border-radius-standard);
+  padding: calc(var(--default-space) * 1.5);
+  margin-bottom: var(--default-space);
+}
+
+.chipContainer {
+  margin-top: calc(var(--default-space) / 2);
+  text-align: right;
+}
+
+.infoContainer {
+  margin-bottom: calc(var(--default-space));
+}
+
+/* TODO These styles could 1000% be broken out into a generic input/button help series of styles -- not so directly linked to tags search */
+.tagAddContainer {
+  align-items: stretch;
+  display: flex;
+}
+.tagAddInput {
+  flex: 1 1 auto;
+  margin-right: var(--default-space);
+  position: relative;
+}
